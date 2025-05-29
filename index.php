@@ -99,12 +99,11 @@ if(isset($_POST['Enviar'])) {
                             <circle cx="12" cy="12" r="3"></circle>
                         </svg>
                         <svg id="eyeOffIcon" class="eye-icon" style="display: none;" viewBox="0 0 24 24">
-                            <path d="m9.88 9.88 4.24 4.24"></path>
-                            <path d="m15.5 15.5 3.5 3.5"></path>
-                            <path d="M17.02 17.02c-2.76 2.3-6.38 3.98-10.02 3.98C3 21 1 12 1 12s1.67-4.9 4.64-6.32"></path>
-                            <path d="m2 2 20 20"></path>
-                            <path d="M6.98 6.98C4.35 8.7 3 12 3 12s4 8 11 8c1.36 0 2.63-.39 3.74-1.02"></path>
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <line x1="2" y1="2" x2="22" y2="22"></line>
                         </svg>
+                        
                     </button>
                 </div>
                 <button type="submit" class="btn-primary" name='Enviar'>Iniciar Sesión</button>
