@@ -1,0 +1,35 @@
+# Dependencias de Composer
+vendor/
+composer.lock
+
+# Archivos de configuración local
+.env
+config_local.php
+
+# Logs
+*.log
+logs/
+
+# Cache y temporales
+cache/
+tmp/
+temp/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Archivos de backup
+*.bak
+*~
+
+# Archivos de PHP
+*.tmp
