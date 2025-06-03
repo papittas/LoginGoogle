@@ -90,7 +90,7 @@ if(isset($_POST['Enviar'])) {
             <hr>
             <!-- Formulario de login tradicional -->
             <form action="index.php" method="POST">
-                <input type="text" name="User" class="form-control-custom" placeholder="Email o usuario" required>
+                <input type="text" name="User" class="form-control-custom" placeholder="Usuario" required>
                 <div class="password-container">
                     <input type="password" name="pass" id="password" class="form-control-custom" placeholder="Contraseña" style="padding-right: 45px;" required>
                     <button type="button" class="password-toggle" onclick="togglePassword()">
