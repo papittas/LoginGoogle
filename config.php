@@ -8,8 +8,8 @@ error_reporting(E_ALL);
 require_once 'vendor/autoload.php';
 
 $client = new Google_Client();
-$client->setClientId('975567081498-voblkm52uont1r9meijv4v65j32hdgsn.apps.googleusercontent.com');
-$client->setClientSecret('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');
+$client->setClientId('975567081498-XXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com');
+$client->setClientSecret('GOCSPX-XXXXXXXXXXXXXXXXX');
 $client->setRedirectUri('http://localhost/config.php');
 $client->addScope("email");
 $client->addScope("profile");
