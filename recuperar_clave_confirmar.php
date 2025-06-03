@@ -49,7 +49,7 @@ if( ! $a ){
             <?php elseif (isset($success)): ?>
                 <div class="success-msg"><?php echo $success; ?></div>
                 <div class="links-container">
-                    <a href="index.php" class="btn-primary">Iniciar Sesión</a>
+                    <a href="index.php" class="btn-primary" style="text-decoration: none; display: inline-block;">Iniciar Sesión</a>
                 </div>
                 <script>
                     // Redireccionar automáticamente después de 3 segundos
