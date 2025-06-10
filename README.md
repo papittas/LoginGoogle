@@ -1,7 +1,3 @@
-# Login con Google - PHP
-
-Este proyecto implementa un sistema de inicio de sesión con autenticación de Google usando PHP. Permite a los usuarios registrarse, iniciar sesión, recuperar contraseñas y manejar sesiones de manera segura.
-
 ## 🚀 Características
 
 - Autenticación con Google
@@ -45,13 +41,15 @@ LoginGoogle-main/
    C:\xampp\htdocs\LoginGoogle-main
    ```
 
-2. **Instalar dependencias con Composer** (si el proyecto lo requiere):
+2. **Instalar dependencias con Composer**
 
    Abre una terminal en la carpeta del proyecto y ejecuta:
 
    ```bash
    composer install
+   composer require google/apiclient:"2.12.1"
    ```
+   
 
 
 3. **Importar la base de datos**:
