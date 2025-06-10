@@ -53,7 +53,6 @@ LoginGoogle-main/
    composer install
    ```
 
-   > Nota: Este proyecto parece no incluir `composer.json` aún. Podés crear uno si planeás usar paquetes externos (como Google Client Library).
 
 3. **Importar la base de datos**:
 
@@ -80,10 +79,3 @@ Este sistema usa OAuth 2.0. Necesitás:
 - Configurar la URI de redirección a:  
   `http://localhost/LoginGoogle-main/index.php` (o el archivo que maneje la respuesta de Google)
 
-## 🧑‍💻 Contribuciones
-
-¡Contribuciones y mejoras son bienvenidas! Podés abrir un issue o enviar un pull request.
-
-## 📄 Licencia
-
-Distribuido bajo la licencia MIT.
